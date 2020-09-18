@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EBB048
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{01A82F90-5CB4-4F79-B444-EAACD22BD735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.MVC", "SheClean.MVC\SheClean.MVC.csproj", "{012E176E-C5E3-4599-9CA8-A34836219F7D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012E176E-C5E3-4599-9CA8-A34836219F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012E176E-C5E3-4599-9CA8-A34836219F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012E176E-C5E3-4599-9CA8-A34836219F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012E176E-C5E3-4599-9CA8-A34836219F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{012E176E-C5E3-4599-9CA8-A34836219F7D} = {C116E472-917D-4B7B-A995-2CA1CA870BEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F575C793-E7B4-466D-B308-A559D0D440A5}
