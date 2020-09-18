@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SheClean.Domain.Models
 {
-    class Patient
+    public class Patient
     {
         public int Id { get; set; }
         public string Vorname { get; set; }
