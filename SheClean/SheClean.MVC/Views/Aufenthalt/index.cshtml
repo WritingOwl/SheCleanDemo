@@ -1,0 +1,24 @@
+﻿@model SheClean.Application.ViewModels.AufenthaltViewModel
+
+<div class="container body-content">
+    <div class="row aufenthalt-content">
+        <table>
+            <tr>
+                <th>AufenthaltsId</th>
+                <th>PatientsId</th>
+                <th>Fallnummer</th>
+                <th>Datum</th>
+            </tr>
+            
+        </table>
+        @foreach (var aufenthalt in Model.Aufenthalte)
+        {
+        <tr>
+            <td>@aufenthalt.AufenthaltId</td>
+            <td>@aufenthalt.PatientId</td>
+            <td>@aufenthalt.FallNr</td>
+            <td>@aufenthalt.Datum</td>
+        </tr>
+        }
+    </div>
+</div>

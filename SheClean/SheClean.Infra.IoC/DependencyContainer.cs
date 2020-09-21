@@ -18,6 +18,13 @@ namespace SheClean.Infra.IoC
 
             //Infra.Data Layer
             services.AddScoped<IPatientRepository, PatientRepository>();
+
+
+            //Application Layer
+            services.AddScoped<IAufenthaltService, AufenthaltService>();
+
+            //Infra.Data Layer
+            services.AddScoped<IAufenthaltRepository, AufenthaltRepository>();
         }
     }
 }
