@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SheClean.Infra.Data\SheClean.Infra.Data.csproj" />
+    <ProjectReference Include="..\SheClean.Infra.IoC\SheClean.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

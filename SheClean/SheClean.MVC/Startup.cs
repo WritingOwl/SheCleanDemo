@@ -13,6 +13,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SheClean.Infra.Data.Context;
+using SheClean.Infra.IoC;
+
+
 
 namespace SheClean.MVC
 {
@@ -31,6 +34,8 @@ namespace SheClean.MVC
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("SheIdentityDBConnection")));
+
+            RegisteredServices(services);
 
             services.AddDbContext<SheDBContext>(options =>
                options.UseSqlServer(
@@ -72,5 +77,10 @@ namespace SheClean.MVC
                 endpoints.MapRazorPages();
             });
         }
+        private static void RegisteredServices(IServiceCollection services)
+        {
+            DependencyContainer.RegisterServices(services);
+        }
+
     }
 }
