@@ -10,3 +10,6 @@ namespace SheClean.Domain.Interfaces
        IEnumerable<Patient> GetPatient(); 
     }
 }
+//hier sage ich, wie der Vertrag aussehen soll
+//PatientRepository muss also GetPatient beinhalten und kann ausgetauscht werden, Vertrag bleibt gleich
+//SERVICE

@@ -14,5 +14,7 @@ namespace SheClean.Infra.Data.Context
         }
 
         public DbSet<Patient> Patients { get; set; }
+        public DbSet<Aufenthalt> Aufenthalte { get; set; }
+        //Aufenthalt und Fremdschlüssel (Verheiraten)
     }
 }

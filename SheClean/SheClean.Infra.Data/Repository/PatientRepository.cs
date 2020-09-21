@@ -20,3 +20,5 @@ namespace SheClean.Infra.Data.Repository
         }
     }
 }
+//holt die Daten hier rein und weiß, wei die Daten aufgerufen werden
+//REPOSITORY

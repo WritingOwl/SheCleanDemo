@@ -9,7 +9,7 @@ namespace SheClean.Domain.Models
         public int Id { get; set; }
         public string Vorname { get; set; }
         public string Nachname { get; set; }
-        public string PatentNr { get; set; }
+        public string PatientNr { get; set; }
         public string ImageUrl { get; set; }
     }
 }
