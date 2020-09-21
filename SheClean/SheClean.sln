@@ -15,11 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.MVC", "SheClean.MVC\SheClean.MVC.csproj", "{012E176E-C5E3-4599-9CA8-A34836219F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Domain", "SheClean.Domain\SheClean.Domain.csproj", "{3F4F34FC-CF9E-4A55-A347-5ACB074215EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Domain", "SheClean.Domain\SheClean.Domain.csproj", "{3F4F34FC-CF9E-4A55-A347-5ACB074215EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.Data", "SheClean.Infra.Data\SheClean.Infra.Data.csproj", "{D481AB78-CD97-4092-9A0B-34C4CF31A448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Infra.Data", "SheClean.Infra.Data\SheClean.Infra.Data.csproj", "{D481AB78-CD97-4092-9A0B-34C4CF31A448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Application", "SheClean.Application\SheClean.Application.csproj", "{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheClean.Application", "SheClean.Application\SheClean.Application.csproj", "{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheClean.Infra.IoC", "SheClean.Infra.IoC\SheClean.Infra.IoC.csproj", "{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{3F4F34FC-CF9E-4A55-A347-5ACB074215EC} = {EBB048B4-31CE-470D-B81C-69BF0AAFF388}
 		{D481AB78-CD97-4092-9A0B-34C4CF31A448} = {97725E17-BA30-48A8-8549-D7549B218A69}
 		{7CACFE2E-EEBE-4AD5-AA92-29C91A53B4B7} = {01A82F90-5CB4-4F79-B444-EAACD22BD735}
+		{DDA2D486-8DCA-4B29-8829-EC7FDBEBD63C} = {038ED7BB-D1DC-4BA0-9131-0FC6301DF86B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F575C793-E7B4-466D-B308-A559D0D440A5}
