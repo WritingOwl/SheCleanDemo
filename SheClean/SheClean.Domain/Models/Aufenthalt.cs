@@ -10,5 +10,6 @@ namespace SheClean.Domain.Models
         public int PatientId { get; set; }
         public string FallNr { get; set; }
         public DateTime Datum { get; set; }
+        public Patient Patient { get; set; }
     }
 }

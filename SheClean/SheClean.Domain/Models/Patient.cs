@@ -11,5 +11,6 @@ namespace SheClean.Domain.Models
         public string Nachname { get; set; }
         public string PatientNr { get; set; }
         public string ImageUrl { get; set; }
+        public List<Aufenthalt> Aufenthalte { get; set; }
     }
 }
