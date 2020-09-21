@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SheClean.Infra.Data.Context;
 
 namespace SheClean.Infra.Data.Migrations
 {
     [DbContext(typeof(SheDBContext))]
-    partial class SheDBContextModelSnapshot : ModelSnapshot
+    [Migration("20200921130418_AufenthaltsMigration")]
+    partial class AufenthaltsMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
